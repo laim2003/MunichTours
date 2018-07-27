@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <PreferenceCategory
+        android:fragment="tours.munich.bavariaplus.com.munichtours.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/app_string_start">
+        <MultiSelectListPreference
+            android:entries="@array/start_tabs_array"
+            android:entryValues="@array/start_tabs_array"
+            android:icon="@drawable/playlist_edit"
+            android:key="pref_select_start_tabs"
+            android:title="@string/customize_start_tabs" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_language">
+
+        <ListPreference
+            android:entries="@array/language_select_entry"
+            android:entryValues="@array/language_select_val"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:key="pref_language"
+            android:title="@string/pref_language" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/app_about">
+
+        <Preference
+            android:id="@+id/pref_develop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fragment="tours.munich.bavariaplus.com.munichtours.SettingsActivity$GeneralPreferenceFragment"
+            android:singleLineTitle="false"
+            android:summary="@string/app_dev_name"
+            android:title="@string/dev_by" />
+        <Preference
+            android:fragment="tours.munich.bavariaplus.com.munichtours.SettingsActivity$GeneralPreferenceFragment"
+            android:singleLineTitle="false"
+            android:summary="@string/app_version"
+            android:title="@string/app_version_header" />
+        <SwitchPreference
+            android:id="@+id/pref_enable_beta_acces"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_developer_mode_black_24dp"
+            android:key="pref_enable_beta_access"
+            android:summary="@string/pref_recommended_state_off"
+            android:title="@string/enable_beta_acces" />
+    </PreferenceCategory>
+</PreferenceScreen>

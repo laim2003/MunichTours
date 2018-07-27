@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="start_tabs_array">
+        <item>My Locations</item>
+        <item>Popular Locations</item>
+        <item>Explore the quarters</item>
+        <item>History</item>
+    </string-array>
+    <string-array name="language_select_entry">
+        <item name="language_sys">System Language(%s)</item>
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+    <string-array name="language_select_val">
+        <item>sys</item>
+        <item>en</item>
+        <item>de</item>
+    </string-array>
+</resources>

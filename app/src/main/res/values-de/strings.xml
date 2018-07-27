@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_favourite">Favouriten</string>
+    <string name="title_dashboard">Übersicht</string>
+    <string name="title_profile">Profil</string>
+    <string name="app_about">Über</string>
+    <string name="app_bar_settings">Einstellungen</string>
+    <string name="app_bar_search">Suche</string>
+    <string name="profile_knowbetter">Wir würden dich gerne besser kennenlernen.\n Log dich jetzt ein!</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="pref_header_general">Allgemein</string>
+    <string name="dev_by">Entwickelt von</string>
+    <string name="enable_beta_acces">"Zugriff auf BETA-features gewähren "</string>
+    <string name="customize_start_tabs">Anzuzeigende Karten</string>
+    <string name="choose_customize_start_tabs">Wählen sie die Anzuzeigenden Karten aus:</string>
+    <string name="pref_warning_beta_acces_title">Wollen sie die BETA-Features wirklich aktivieren?</string>
+    <string name="pref_warning_beta_acces_message">Die BETA-Features sind Möglicherweise  fehlerhaft, funktionieren gar nicht oder bewirken unerwartetes Verhalten der App oder Abstürzen.</string>
+    <string name="pref_recommended_state_off">Empfohlen: Aus</string>
+    <string name="pref_recommended_state_on">Empfohlen: An</string>
+    <string name="pref_language">Sprache</string>
+    <string name="pref_header_general_summary">Sprache</string>
+    <string name="pref_header_info_summary">App-Verison, Entwickler, BETA-Funktionen</string>
+    <string name="dashboard_header">München - Weltstadt mit Herz</string>
+    <string name="card_title_famous_places">Die großen Bekannten</string>
+    <string name="card_subtitle_famous_places">Entdecke die Einkaufsstraßen der Innenstadt und erlebe das Münchner Stadtleben</string>
+    <string name="card_title_discover_quarters">Die 25 Stadtviertel Münchens</string>
+    <string name="card_subtitle_discover_quarters">Jedes der Münchner Stadtviertel hat seine eigene Magie</string>
+    <string name="card_title_historical_places">Historisch relevante Orte</string>
+    <string name="card_subtitle_historical_places">München hat eine interessante Geschichte: Lerne sie kennen, Schritt für Schritt, während du diese historischen Sehenswürdigkeiten besichtigst</string>
+    <string name="card_title_myplaces">Meine gepeicherten Orte</string>
+    <string name="card_subtitle_myplaces">In deiner Kollektion gespeichert</string>
+</resources>

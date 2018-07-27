@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="start_tabs_array">
+        <item>Meine Orte</item>
+        <item>Beliebte Orte</item>
+        <item>Entdecke die Stadviertel</item>
+        <item>Geschichte</item>
+    </string-array>
+</resources>
